@@ -84,7 +84,7 @@ firebase deploy --only hosting
 
 # 🌍 Events
 
-You can find all our old [templates here]/https://github.com/gdg-asturias/GDGEventTemplates)
+You can find all our old [templates here](https://github.com/gdg-asturias/GDGEventTemplates)
 
 | Event                          | Date            | Web                             | Code                                                                          |
 | ------------------------------ | --------------- | ------------------------------- | ----------------------------------------------------------------------------- |
