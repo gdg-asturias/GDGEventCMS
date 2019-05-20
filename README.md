@@ -64,7 +64,7 @@ If you like them and it makes your GDG live easier, just use them. One easy requ
 
 All the necessary configuration is on the **netlify.toml**
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify/netlify-statuskit)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gdg-asturias/GDGEventCMS)
 
 #### Firebase Hosting
 
