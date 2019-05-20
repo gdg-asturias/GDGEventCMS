@@ -1,0 +1,52 @@
+service cloud.firestore {
+	match /databases/{database}/documents {
+
+    function allowPublic() {
+      return true;
+    }
+
+    function allowAnonymous() {
+      return request.auth.uid != null;
+    }
+
+    function allowPassword() {
+      return request.auth.token.firebase.sign_in_provider != 'anonymous';
+    }
+
+    match /speakers/{speaker} {
+      allow write: if allowPassword();
+      allow read: if allowPublic();
+    }
+
+    match /talks/{talk} {
+      allow write: if allowPassword();
+      allow read: if allowPublic();
+
+      match /feedback/{feedback} {
+        allow write: if allowAnonymous();
+        allow get: if allowAnonymous();
+        allow list: if allowPassword();
+      }
+    }
+
+    match /events/{event} {
+      allow write: if allowPassword();
+      allow read: if allowPublic();
+    }
+
+    match /faqs/{event} {
+      allow write: if allowPassword();
+      allow read: if allowPublic();
+    }
+
+    match /challenges/{event} {
+      allow write: if allowPassword();
+      allow read: if allowPublic();
+    }
+
+    match /{document=**} {
+      allow write: if allowPassword();
+      allow read: if allowPassword();
+    }
+  }
+}

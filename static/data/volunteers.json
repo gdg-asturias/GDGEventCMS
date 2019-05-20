@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Juan Carlos",
+    "surname": "Rodríguez",
+    "subtitle": "Voluntario",
+    "picture": "/img/organizers/juancarlos.png",
+    "social": {
+      "twitter": "https://twitter.com/CoworkingAcademy",
+      "facebook": "https://www.facebook.com/CoworkingAcademy/"
+    }
+  },
+  {
+    "name": "Roberto",
+    "surname": "Bayón",
+    "subtitle": "Voluntario",
+    "picture": "/img/organizers/rober.jpg",
+    "social": {
+      "twitter": "https://twitter.com/roberto_bayon",
+      "linkedin": "https://www.linkedin.com/in/robertolbayon/"
+    }
+  },
+  {
+    "name": "Begoña",
+    "surname": "Menéndez",
+    "subtitle": "Voluntaria",
+    "picture": "/img/organizers/bego.jpg",
+    "social": {
+      "twitter": "https://twitter.com/BegoMenBarreiro",
+      "linkedin": "https://www.linkedin.com/in/begonamenendezbarreiro/"
+    }
+  },
+  {
+    "name": "Javier",
+    "surname": "Labrada",
+    "subtitle": "Voluntario",
+    "picture": "/img/organizers/javi.jpg",
+    "social": {
+      "twitter": "https://twitter.com/javierlbrd",
+      "linkedin": "https://www.linkedin.com/in/javier-labrada-b51a62142/"
+    }
+  }
+]

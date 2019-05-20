@@ -1,0 +1,19 @@
+.section-title {
+  @apply .text-4xl .text-wtm-blue-dark .uppercase;
+}
+
+@screen md {
+  .section-title {
+    @apply .text-6xl .text-wtm-blue-dark .uppercase;
+  }
+}
+
+.container {
+  @apply .mx-auto .px-8;
+}
+
+@screen sm {
+  .container {
+    @apply .mx-auto .px-4;
+  }
+}

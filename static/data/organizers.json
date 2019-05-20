@@ -1,0 +1,32 @@
+[
+  {
+    "name": "María",
+    "surname": "Encinar",
+    "subtitle": "Organizadora",
+    "picture": "/img/organizers/maria.png",
+    "social": {
+      "twitter": "https://twitter.com/mariaencinar",
+      "linkedin": "https://www.linkedin.com/in/mariaencinar/"
+    }
+  },
+  {
+    "name": "Aurora",
+    "surname": "Barrero",
+    "subtitle": "Organizadora",
+    "picture": "/img/organizers/aurora.jpg",
+    "social": {
+      "twitter": "https://twitter.com/aurora_barrero",
+      "linkedin": "https://www.linkedin.com/in/aurorabarrero/"
+    }
+  },
+  {
+    "name": "Santiago",
+    "surname": "Martín",
+    "subtitle": "Organizador",
+    "picture": "/img/organizers/santiago.jpg",
+    "social": {
+      "twitter": "https://twitter.com/SantiMA10",
+      "linkedin": "https://www.linkedin.com/in/santiago-martin-agra/"
+    }
+  }
+]
